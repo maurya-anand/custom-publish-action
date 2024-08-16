@@ -1,4 +1,4 @@
-name: build
+name: build-rstudio
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: custom-rstudio
+  IMAGE_NAME: ${{ github.repository }}-custom-rstudio
 
 jobs:
   build-and-push-image:

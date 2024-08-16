@@ -1,4 +1,4 @@
-name: build
+name: build-jupyter
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: custom-jupyter
+  IMAGE_NAME: ${{ github.repository }}-custom-jupyter
 
 jobs:
   build-and-push-image:
