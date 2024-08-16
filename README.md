@@ -8,5 +8,9 @@ This repository contains the configuration and workflow files to build and publi
 ## Usage
 
 ```bash
-docker pull 
+docker pull ghcr.io/maurya-anand/docker-images-jupyter
+```
+
+```bash
+docker pull ghcr.io/maurya-anand/docker-images-rstudio
 ```
