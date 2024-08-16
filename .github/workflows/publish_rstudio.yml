@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}-custom-rstudio
+  IMAGE_NAME: ${{ github.repository }}-rstudio
 
 jobs:
   build-and-push-image:
