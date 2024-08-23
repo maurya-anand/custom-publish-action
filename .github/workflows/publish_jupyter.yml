@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}-jupyter
+  IMAGE_NAME: jupyter
 
 jobs:
   build-and-push-image:
